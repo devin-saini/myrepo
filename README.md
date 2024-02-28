@@ -2,6 +2,7 @@ Dependencies needed to run code:
 Biopython
 os
 numpy
+Kallisto
 
 Download the SRA files using the wget command followed by the links below
 https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
@@ -13,4 +14,4 @@ For example, downloading the first SRA file: wget https://sra-pub-run-odp.s3.ama
 After all the files have been downloaded, use "fastq-dump -I --split-files" to split the files into paired end fastq files
 For example, converting the first SRA: fastq-dump -I --split-files SRR5660030
 
-Following track 1
+Following track 1, 
