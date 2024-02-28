@@ -14,4 +14,4 @@ For example, downloading the first SRA file: wget https://sra-pub-run-odp.s3.ama
 After all the files have been downloaded, use "fastq-dump -I --split-files" to split the files into paired end fastq files
 For example, converting the first SRA: fastq-dump -I --split-files SRR5660030
 
-Following track 1, 
+Following track 1
