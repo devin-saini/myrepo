@@ -3,6 +3,8 @@ Biopython
 os
 numpy
 Kallisto
+R studio
+Sleuth
 
 Download the SRA files using the wget command followed by the links below
 https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
