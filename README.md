@@ -10,7 +10,7 @@ Pandas for data analysis
 from pathlib use Path to identify files and retrieve their location
 
 Step 1: Choose whether to analyze sample data or all data. If choosing sample data, download the sample data files from the previous page.
-If choosing all data, follow the steps below.
+If choosing all data, in your current working directory, follow the steps below.
 Download the SRA files using the wget command followed by the links below
 https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
 https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660033/SRR5660033
