@@ -1,0 +1,5 @@
+sample condition path
+SRR5660030 2dpi ~/D1-2DPI
+SRR5660044 2dpi ~/D3-2DPI
+SRR5660033 6dpi ~/D1-6DPI
+SRR5660045 6dpi ~/D3-6DPI
