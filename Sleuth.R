@@ -1,7 +1,6 @@
 library (sleuth)
-library (dplyr)
 
-stab = read.table("full_table.txt",header=TRUE)
+stab = read.table("sleuth_table.txt", header=TRUE)
 so = sleuth_prep(stab)
 so = sleuth_fit(so, ~condition, 'full')
 so = sleuth_fit(so, ~1, 'reduced')
