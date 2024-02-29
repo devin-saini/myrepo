@@ -22,4 +22,6 @@ After all the files have been downloaded, use "fastq-dump -I --split-files" to s
 For example, converting the first SRA file: fastq-dump -I --split-files SRR5660030
 
 Following track 1, we will perform differential expression.
-Before running the code, be sure the "Sleuth.R" file is in your current working directory.
+Before running the code, be sure the "Sleuth.R" file and ALL FASTQ files are in the same directory as the code.
+
+After ensuring all appropriate files are in the same directory, run the code using "python Python_Pipeline.py" in the command line.
