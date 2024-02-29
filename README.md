@@ -22,3 +22,4 @@ After all the files have been downloaded, use "fastq-dump -I --split-files" to s
 For example, converting the first SRA file: fastq-dump -I --split-files SRR5660030
 
 Following track 1, we will perform differential expression.
+Before running the code, be sure the "Sleuth.R" file is in your current working directory.
