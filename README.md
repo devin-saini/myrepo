@@ -1,5 +1,5 @@
 Dependencies needed to run code:
-from Biopython import Entrez and SeqIO to search NCBI database and retrieve sequences
+from Biopython import Entrez and SeqIO to analyze NCBI files, search NCBI database, and retrieve sequences
 os to pass commands from python to the terminal
 numpy to analyze data
 Kallisto for sequence quanitification
