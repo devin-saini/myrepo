@@ -27,3 +27,5 @@ Step 2: Following track 1, we will perform differential expression.
 Before running the code, be sure the "Sleuth.R" file and ALL FASTQ files are in the same directory as the code.
 
 After ensuring all appropriate files are in the same directory and all fastq files end with ".fastq", run the code by entering "python Python_Pipeline.py" in the command line.
+
+The code will then quantify the TPM of each CDS in each transcriptome using kallisto, find differntially expressed gene between the 2 time points, and what other virus strains have genes coding the most differentially expressed protein using tblastn.
