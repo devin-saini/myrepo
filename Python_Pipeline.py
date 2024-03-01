@@ -56,7 +56,7 @@ hcmv = "HCMV.idx" #where to store index
 hcmv_cds = Path('HCMV_cds.fasta').absolute() #path to reference trancriptome
 os.system(f'kallisto index -i {hcmv} {hcmv_cds}') #make kallisto of HCMV CDS
 
-index = Path('HCMV.idx').absolute() #path to reference trancriptome
+index = Path('HCMV.idx').absolute() #path to reference trancriptome kallisto index
 
 tpm_output = ['D1-2DPI','D1-6DPI','D3-2DPI','D3-6DPI'] #Make list of all conditions
 
