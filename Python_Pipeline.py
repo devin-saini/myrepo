@@ -26,7 +26,7 @@ os.rename(sleuth_r_path,new_spot) #move sleuth code
 
 os.chdir("PipelineProject_Devinjeet_Saini") #move into directory
 
-#get genbank file from of HCMV
+#get genbank file for HCMV
 accession = 'NC_006273.2'
 Entrez.email = 'dsaini@luc.edu'
 handle = Entrez.efetch(db='nucleotide', id=accession, rettype='gb',retmode = 'text')
