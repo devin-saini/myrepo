@@ -28,4 +28,4 @@ Before running the code, be sure the "Sleuth.R" file and ALL FASTQ files are in 
 
 After ensuring all appropriate files are in the same directory and all fastq files end with ".fastq", run the code by entering "python Python_Pipeline.py" in the command line.
 
-The code will then quantify the TPM of each CDS in each transcriptome using kallisto, find differntially expressed gene between the 2 time points, and what other virus strains have genes coding the most differentially expressed protein using tblastn.
+The code will then output quantification of the TPM of each CDS in each transcriptome using kallisto, find differentially expressed genes between the 2 time points (2DPI and 6DPI), and what other virus strains have genes coding the most differentially expressed protein using tblastn.
